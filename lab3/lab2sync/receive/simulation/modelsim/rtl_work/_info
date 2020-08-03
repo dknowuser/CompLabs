@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab2\lab2sync\receive\simulation\modelsim
+vsync_receive
+!i10b 1
+!s100 J9g4Hg1FKGY=HGDzIX2NF3
+I^ejFX4ziN@=biIJ]KXfDn2
+Vc1?nUmk2;gBPeNM@`iIm;2
+Z1 dE:\study\Labs\Components\lab2\lab2sync\receive\simulation\modelsim
+w1567883091
+8E:/study/Labs/Components/lab2/lab2sync/receive/sync_receive.v
+FE:/study/Labs/Components/lab2/lab2sync/receive/sync_receive.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1567884396.103000
+!s107 E:/study/Labs/Components/lab2/lab2sync/receive/sync_receive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab2/lab2sync/receive|E:/study/Labs/Components/lab2/lab2sync/receive/sync_receive.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab2/lab2sync/receive -O0

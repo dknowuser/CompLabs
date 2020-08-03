@@ -1,0 +1,25 @@
+|sync_transmit
+Clk_in => D_bit.CLK
+Clk_in => odd.CLK
+Clk_in => counter[0].CLK
+Clk_in => counter[1].CLK
+Clk_in => counter[2].CLK
+Clk_in => FS_reg.CLK
+Clk_in => Clk_out.DATAIN
+Din[0] => ShiftRight0.IN35
+Din[1] => ShiftRight0.IN34
+Din[2] => ShiftRight0.IN33
+Din[3] => ShiftRight0.IN32
+Din[4] => ShiftRight0.IN31
+Din[5] => ShiftRight0.IN30
+Start => FS_reg.DATAIN
+Start => odd.ENA
+Start => D_bit.ENA
+Start => counter[0].ENA
+Start => counter[1].ENA
+Start => counter[2].ENA
+Clk_out <= Clk_in.DB_MAX_OUTPUT_PORT_TYPE
+D <= D_bit.DB_MAX_OUTPUT_PORT_TYPE
+FS <= FS_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

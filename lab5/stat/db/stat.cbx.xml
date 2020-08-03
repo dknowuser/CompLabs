@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="stat">
+		<CBX_INST_ENTRY INSTANCE_NAME="|stat|mc8051_core:processor|mc8051_alu:i_mc8051_alu|comb_mltplr:\gen_multiplier1:i_comb_mltplr|lpm_mult:Mult0" CBX_FILE_NAME="mult_19t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stat|my_rom:rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_se91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

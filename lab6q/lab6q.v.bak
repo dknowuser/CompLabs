@@ -1,0 +1,3 @@
+module lab6q(clk);
+input clk;
+endmodule

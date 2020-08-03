@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab4\lab4-1\simulation\modelsim
+Elab41
+Z1 w1575835457
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 2GQ=lL0Egg_?;Ci=Ijbcd1
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 ?D4JjGHcA2XJ:Aa_KBCB<3
+Z8 dE:\study\Labs\Components\lab4\lab4-1\simulation\modelsim
+Z9 8lab41_6_1200mv_85c_slow.vho
+Z10 Flab41_6_1200mv_85c_slow.vho
+l0
+L34
+Vl45C?d40?G:;OFTmWMCj:2
+!s100 6nVIJO:l9Pn]9zEe4E=oY1
+Z11 OV;C;10.1b;51
+31
+!i10b 1
+Z12 !s108 1575835490.010000
+Z13 !s90 -reportprogress|300|-93|-work|work|lab41_6_1200mv_85c_slow.vho|
+Z14 !s107 lab41_6_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 5 lab41 0 22 l45C?d40?G:;OFTmWMCj:2
+l115
+L66
+VUQA=47G<;_Q[[WRGgYNQ`1
+!s100 BB@o0Y5Hi4ZN0G@MH5K2B0
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

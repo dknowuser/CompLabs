@@ -1,0 +1,2 @@
+module async_receiver(Clk, D, Dout, Ready, Error);
+endmodule

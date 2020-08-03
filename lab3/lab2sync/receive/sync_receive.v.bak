@@ -1,0 +1,8 @@
+module sync_receive(Clk, D, FS, Dout, Ready, Error);
+parameter data_bits = 6;
+parameter frame_size = 7;
+input Clk, D, FS;
+output Ready, Error;
+output [data_bits-1:0] Dout;
+
+endmodule

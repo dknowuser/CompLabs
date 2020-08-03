@@ -1,0 +1,53 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do async_general_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2async/receive {E:/study/Labs/Components/lab3/lab2async/receive/async_receiver.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module async_receiver
+# 
+# Top level modules:
+# 	async_receiver
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2async/transmit {E:/study/Labs/Components/lab3/lab2async/transmit/async_transmitter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module async_transmitter
+# 
+# Top level modules:
+# 	async_transmitter
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2async/general {E:/study/Labs/Components/lab3/lab2async/general/async_general.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module async_general
+# 
+# Top level modules:
+# 	async_general
+# 
+vsim work.async_general
+# vsim work.async_general 
+# Loading work.async_general
+# Loading work.async_transmitter
+# Loading work.async_receiver
+add wave -position end  sim:/async_general/Clk
+add wave -position end  sim:/async_general/Start
+add wave -position end  sim:/async_general/Din
+add wave -position end  sim:/async_general/Ready
+add wave -position end  sim:/async_general/Error
+add wave -position end  sim:/async_general/Dout
+force -freeze sim:/async_general/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/async_general/Start 1 0, 0 {28800 ps} -r 57600
+force -freeze {sim:/async_general/Din[0]} 0 0, 1 {900 ps} -r 1800
+force -freeze {sim:/async_general/Din[1]} 0 0, 1 {1800 ps} -r 3600
+force -freeze {sim:/async_general/Din[2]} 0 0, 1 {3600 ps} -r 7200
+force -freeze {sim:/async_general/Din[3]} 0 0, 1 {7200 ps} -r 14400
+force -freeze {sim:/async_general/Din[4]} 0 0, 1 {14400 ps} -r 28800
+force -freeze {sim:/async_general/Din[5]} 0 0, 1 {28800 ps} -r 57600
+run -all
+# Break key hit 
+# Simulation stop requested.

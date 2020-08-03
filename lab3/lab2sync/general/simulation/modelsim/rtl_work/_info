@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab3\lab2sync\general\simulation\modelsim
+vsync_general
+!i10b 1
+!s100 Ib4UkOd[729k`fNULldke1
+ILP;@TMN^U2E2n=T^Q99;70
+Vbd>ZLOgj0@l74Ko^BJ0jj1
+Z1 dE:\study\Labs\Components\lab3\lab2sync\general\simulation\modelsim
+w1569440999
+8E:/study/Labs/Components/lab3/lab2sync/general/sync_general.v
+FE:/study/Labs/Components/lab3/lab2sync/general/sync_general.v
+L0 1
+Z2 OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1569441057.257000
+!s107 E:/study/Labs/Components/lab3/lab2sync/general/sync_general.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab3/lab2sync/general|E:/study/Labs/Components/lab3/lab2sync/general/sync_general.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/general -O0
+vsync_receive
+IL:1W23e7YDNm]kR0hoP?z3
+Vc1?nUmk2;gBPeNM@`iIm;2
+R1
+w1569440931
+8E:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v
+FE:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 n3L4Vi?N9A<b?NcT9h@;W0
+!s85 0
+!s108 1569441057.003000
+!s107 E:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab3/lab2sync/receive|E:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/receive -O0
+vsync_transmit
+I1<4YRM^5ML[GBE:J:FSdk1
+VEP4M[BF6?G5Ma9f2Ko_>f0
+R1
+w1569439430
+8E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v
+FE:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 29g[U?5j9;9d9Q4MBhGMk2
+!s85 0
+!s108 1569441057.151000
+!s107 E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab3/lab2sync/transmit|E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/transmit -O0

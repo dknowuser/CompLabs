@@ -1,0 +1,39 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do labka13_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {labka13_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity labka13
+# -- Compiling architecture structure of labka13
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13/simulation/modelsim {E:/study/Labs/Components/labka13/simulation/modelsim/bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module bench
+# 
+# Top level modules:
+# 	bench
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /NA=labka13_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  tb
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /NA=labka13_6_1200mv_85c_vhd_slow.sdo -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'E:/study/Labs/Components/labka13/simulation/modelsim/gate_work.tb'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./labka13_run_msim_gate_vhdl.do PAUSED at line 12

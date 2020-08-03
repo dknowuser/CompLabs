@@ -1,0 +1,639 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab7
+valtera_avalon_sc_fifo
+IK=H4l5SnoARoPE7E>ESI^2
+VjOzUMS5nAQIa6?lLKEfID0
+Z1 dE:\study\Labs\Components\lab7
+Z2 w1573916186
+8E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v
+FE:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v
+L0 21
+Z3 OV;L;10.1b;51
+r1
+31
+Z4 o-work work -O0
+!s100 MM7hb9R1KZY4XG7Q50@Sa0
+!s108 1574287140.766000
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+Eauk_dspip_avalon_streaming_controller_hpfir
+R2
+Z5 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z8 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z9 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+VNEe`=ngG=z5m`;:_DVeAZ2
+Z10 OV;C;10.1b;51
+32
+Z11 !s108 1574287140.924000
+Z12 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z13 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+R4
+Z14 tExplicit 1
+!s100 :Km6hF?2SIGhCI]CCRB8R3
+!i10b 1
+Astruct
+R5
+R6
+R7
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 NEe`=ngG=z5m`;:_DVeAZ2
+l72
+L64
+VVc1;@klI@_oRn__aMZPm62
+R10
+32
+R11
+R12
+R13
+R4
+R14
+!s100 d^`@P<cO?Ae3FI>HI]@mC0
+!i10b 1
+Eauk_dspip_avalon_streaming_sink_hpfir
+Z15 w1573916181
+Z16 DPx9 altera_mf 20 altera_mf_components 0 22 bKSlDL8m]:Go@;Tj0Qh@a2
+Z17 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 8iVV[HMA4OTS]eF4GANQT2
+Z18 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 TSz9D<3BFQI?ESi3YJC2k0
+Z19 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R6
+R7
+R1
+Z20 8E:/study/Labs/Components/lab7/digitalFilter/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z21 FE:/study/Labs/Components/lab7/digitalFilter/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+VjT3I59G6]2H94Q3a4X1dG1
+R10
+32
+Z22 !s108 1574286919.860000
+Z23 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z24 !s107 E:/study/Labs/Components/lab7/digitalFilter/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+R4
+R14
+!s100 X=?PHjSK;PSkCm[IYA^@02
+!i10b 1
+Artl
+R16
+R17
+R18
+R19
+R6
+R7
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 jT3I59G6]2H94Q3a4X1dG1
+l164
+L106
+V7IfU8FVA5:hB_`1;A286@3
+R10
+32
+R22
+R23
+R24
+R4
+R14
+!s100 d1`Vk5Z@a]Q=KDU3W=B]H3
+!i10b 1
+Eauk_dspip_avalon_streaming_source_hpfir
+R2
+R17
+R16
+R19
+R6
+R7
+R1
+Z25 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z26 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+VCegO^8TAnX@j4<eHicT<71
+R10
+32
+Z27 !s108 1574287141.181000
+Z28 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z29 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+R4
+R14
+!s100 z61=GE?nV4baRO4^14Czd2
+!i10b 1
+Artl
+R17
+R16
+R19
+R6
+R7
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 CegO^8TAnX@j4<eHicT<71
+l190
+L109
+VnPgEN6fz`hN5ma4f90g_f0
+R10
+32
+R27
+R28
+R29
+R4
+R14
+!s100 9Dmb32DBg2LcB];:ibk821
+!i10b 1
+Pauk_dspip_lib_pkg_hpfir
+R17
+R19
+R6
+R7
+R2
+R1
+8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd
+FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+VTSz9D<3BFQI?ESi3YJC2k0
+R10
+32
+R4
+R14
+!s100 Q<H^mQVRzgBIk@CWQl<Xg2
+!s108 1574287141.403000
+!s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!i10b 1
+Pauk_dspip_math_pkg_hpfir
+R19
+R6
+R7
+R2
+R1
+Z30 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd
+Z31 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+V8iVV[HMA4OTS]eF4GANQT2
+R10
+32
+b1
+Z32 !s108 1574287141.534000
+Z33 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd|
+Z34 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd|
+R4
+R14
+!s100 GlH[CN>ISbN0k?204PBjF1
+!i10b 1
+Bbody
+R17
+R19
+R6
+R7
+l0
+L131
+VehSS=W<0Z@_iImF=DDJ<R0
+R10
+32
+R32
+R33
+R34
+R4
+R14
+nbody
+!s100 e8T_@B_WY1l_0mWS7M2ER3
+!i10b 1
+Eauk_dspip_roundsat_hpfir
+R2
+R19
+R6
+R7
+R1
+Z35 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd
+Z36 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+V@TjTFoLJSVZ4L[P_5PM>D0
+R10
+32
+Z37 !s108 1574287141.744000
+Z38 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd|
+Z39 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd|
+R4
+R14
+!s100 MTFVel;]g54IPMz7aW[f82
+!i10b 1
+Abeh
+R19
+R6
+R7
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 @TjTFoLJSVZ4L[P_5PM>D0
+l66
+L57
+VoFYeFnmYSnDFXVH0o;OCF0
+R10
+32
+R37
+R38
+R39
+R4
+R14
+!s100 P<CBf[n_IVB3WDF=>nNJg0
+!i10b 1
+Edigitalfilter
+R2
+R6
+R7
+R1
+Z40 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd
+Z41 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd
+l0
+L4
+VD2<h]P@POP[VTz8z6TWae1
+R10
+32
+Z42 !s108 1574287141.900000
+Z43 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd|
+Z44 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd|
+R4
+R14
+!s100 HFjQ4lR;d3Fndf5zVcFC13
+!i10b 1
+Asyn
+R6
+R7
+Z45 DEx4 work 13 digitalfilter 0 22 D2<h]P@POP[VTz8z6TWae1
+l38
+L17
+VWOd@lHnSd00Gf:`iYHY=D2
+R10
+32
+R42
+R43
+R44
+R4
+R14
+!s100 2f^QL@hj]F0XcW_TXXnR=3
+!i10b 1
+vdigitalFilter
+II]zVJFam7MTjUMS3o4IGM1
+VJO1<S89@DZOFH=cmkEAUj2
+R1
+w1573916198
+8E:/study/Labs/Components/lab7/digitalFilter.v
+FE:/study/Labs/Components/lab7/digitalFilter.v
+L0 8
+R3
+r1
+31
+R4
+ndigital@filter
+!s100 o5m]]Cj19B8=>cf@B;6i[3
+!s108 1574287149.518000
+!s107 E:/study/Labs/Components/lab7/digitalFilter.v|
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab7/digitalFilter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+Edigitalfilter_0002
+R15
+R6
+R7
+R1
+Z46 8E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002.vhd
+Z47 FE:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002.vhd
+l0
+L4
+V1He1JiMDPB<<>bFmhDOSA1
+R10
+32
+Z48 !s108 1574287132.901000
+Z49 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002.vhd|
+Z50 !s107 E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002.vhd|
+R4
+R14
+!s100 ^>mONM1U@3Rf@bnooXRob2
+!i10b 1
+Asyn
+R6
+R7
+DEx4 work 18 digitalfilter_0002 0 22 1He1JiMDPB<<>bFmhDOSA1
+l38
+L17
+VdLQAC?jeL:HGdg4?@Y=ZI1
+R10
+32
+R48
+R49
+R50
+R4
+R14
+!s100 97Oz_c1SneKQY?HXD6c;;3
+!i10b 1
+Edigitalfilter_0002_ast
+R15
+DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 _c`<WkO2NIc=k[1S3?LLC1
+DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 o>AYJc9?[nm26giIGKoCG3
+DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z51 dE:/study/Labs/Components/lab7
+Z52 8E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_ast.vhd
+Z53 FE:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_ast.vhd
+l0
+L22
+V9zW^Zk]k?6[EcN255MQj^2
+Z54 OL;C;10.2c;57
+32
+!s110 1574287047
+Z55 !s108 1574287047.540000
+Z56 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_ast.vhd|
+Z57 !s107 E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_ast.vhd|
+Z58 o-work work
+R14
+!s100 ;Z:@23bIn90gaZn2^3lIi1
+!i10b 1
+!i111 0
+Astruct
+R17
+R18
+R19
+R6
+R7
+DEx4 work 22 digitalfilter_0002_ast 0 22 9zW^Zk]k?6[EcN255MQj^2
+R10
+32
+!i10b 1
+l111
+L66
+V0C5gljmcATe^4Nk^j@KXD1
+R54
+R55
+R56
+R57
+R58
+R14
+!s100 :]c608W_ObgidT^nWHFK32
+Edigitalfilter_0002_rtl
+R15
+Z59 DPx3 lpm 14 lpm_components 0 22 QP=H4OR=`gFH<P:[5cCAR0
+R16
+Z60 DPx4 work 21 dspba_library_package 0 22 R07?c[nbEj<mVI]cJh1Zl0
+Z61 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R19
+R6
+R7
+R1
+Z62 8E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_rtl.vhd
+Z63 FE:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_rtl.vhd
+l0
+L35
+VloA5JF9K2CU=@<1S8a?cc1
+R10
+32
+Z64 !s108 1574286921.027000
+Z65 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_rtl.vhd|
+Z66 !s107 E:/study/Labs/Components/lab7/digitalFilter/digitalFilter_0002_rtl.vhd|
+R4
+R14
+!s100 bfYS3SF:mcMkHm6^VHel?3
+!i10b 1
+Anormal
+R59
+R16
+R60
+R61
+R19
+R6
+R7
+DEx4 work 22 digitalfilter_0002_rtl 0 22 loA5JF9K2CU=@<1S8a?cc1
+l453
+L48
+V1bYO1lW]KASL<Xn2a;CHH0
+R10
+32
+R64
+R65
+R66
+R4
+R14
+!s100 f];`<b@H]f]LTa?hZGW^N2
+!i10b 1
+Edigitalfilter_ast
+R2
+R17
+R18
+R19
+R6
+R7
+R1
+Z67 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd
+Z68 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd
+l0
+L22
+VK5SQ1WlbWfRfbiSEA6dmQ2
+R10
+32
+Z69 !s108 1574287142.066000
+Z70 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd|
+Z71 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd|
+R4
+R14
+!s100 BjmhS>T:e6P`3H8?ZKLzb3
+!i10b 1
+Astruct
+R17
+R18
+R19
+R6
+R7
+DEx4 work 17 digitalfilter_ast 0 22 K5SQ1WlbWfRfbiSEA6dmQ2
+l111
+L66
+VojaZ8`lQ_VihP=oOPegh70
+R10
+32
+R69
+R70
+R71
+R4
+R14
+!s100 ^Jzkdo6Khn>M6kDG:V^N<1
+!i10b 1
+Edigitalfilter_rtl
+R2
+R59
+R16
+R60
+R61
+R19
+R6
+R7
+R1
+Z72 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd
+Z73 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd
+l0
+L35
+Vn::FKW];Pdc_@<_;2P[TM2
+R10
+32
+Z74 !s108 1574287142.217000
+Z75 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd|
+Z76 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd|
+R4
+R14
+!s100 >^3;lR^=[B]Y0[H78iKCg3
+!i10b 1
+Anormal
+R59
+R16
+R60
+R61
+R19
+R6
+R7
+DEx4 work 17 digitalfilter_rtl 0 22 n::FKW];Pdc_@<_;2P[TM2
+l453
+L48
+V;okKgMGAad<@lHa37kcD:1
+R10
+32
+R74
+R75
+R76
+R4
+R14
+!s100 A2E4zABR07D9NhoYFV<411
+!i10b 1
+Edigitalfilter_tb
+R2
+R19
+R6
+R7
+R1
+Z77 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd
+Z78 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd
+l0
+L32
+VbB233gCGJGX6KdVcXcKl62
+R10
+32
+Z79 !s108 1574287142.510000
+Z80 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd|
+Z81 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd|
+R4
+R14
+!s100 [TY=S2SKMW]Zm^eH5jdg:0
+!i10b 1
+Artl
+R45
+R19
+R6
+R7
+DEx4 work 16 digitalfilter_tb 0 22 bB233gCGJGX6KdVcXcKl62
+l99
+L68
+V>^`P80kO<T@m`X<Zj6cRU3
+R10
+32
+R79
+R80
+R81
+R4
+R14
+!s100 bHYjnacdbAF]z4hBR8IQC1
+!i10b 1
+Edspba_delay
+R2
+R60
+R6
+R7
+R1
+Z82 8E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd
+Z83 FE:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd
+l0
+L17
+VPA0KWRE^Q:7PC3mgh8<Ua3
+R10
+32
+Z84 !s108 1574287142.690000
+Z85 !s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd|
+Z86 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd|
+R4
+R14
+!s100 K^PJ5TW8^ZVUIJChTg=lZ1
+!i10b 1
+Adelay
+R60
+R6
+R7
+DEx4 work 11 dspba_delay 0 22 PA0KWRE^Q:7PC3mgh8<Ua3
+l35
+L32
+V_O6nCRNI39=cF`2?K6cnN1
+R10
+32
+R84
+R85
+R86
+R4
+R14
+!s100 ;1z;WB<<KLFEnnM1^>QTK1
+!i10b 1
+Pdspba_library_package
+R6
+R7
+R2
+R1
+8E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd
+FE:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd
+l0
+L16
+VR07?c[nbEj<mVI]cJh1Zl0
+R10
+32
+R4
+R14
+!s100 ]j_1A>i;UcFgb]nK<PO9X2
+!s108 1574287142.845000
+!s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd|
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd|
+!i10b 1
+vlab7
+Ii6fIgAJG9g;dBIlcQmNCd0
+V4H_DPaSFIbo3VkFgAJO7g3
+R1
+w1574286645
+8E:/study/Labs/Components/lab7/lab7.v
+FE:/study/Labs/Components/lab7/lab7.v
+L0 1
+R3
+r1
+31
+R4
+!s100 Y4SNh9FgXl_nWE>]M2ZXh2
+!s108 1574287149.646000
+!s107 E:/study/Labs/Components/lab7/lab7.v|
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab7/lab7.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsine_cos
+IQ9jaYVdCBViEVY0]Q]gW82
+VNJi5D=S0_]Lcj6Ac6acc_1
+R1
+w1574284217
+8E:/study/Labs/Components/lab7/sine_cos.v
+FE:/study/Labs/Components/lab7/sine_cos.v
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 Bi>d?Q:ObAcVdA0<<7W=P2
+!s85 0
+!s108 1574287149.737000
+!s107 E:/study/Labs/Components/lab7/sine_cos.v|
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab7/sine_cos.v|
+!s101 -O0

@@ -1,0 +1,44 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do labka12_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 {E:/study/Labs/Components/labka12/labka12.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module labka12
+# 
+# Top level modules:
+# 	labka12
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 {E:/study/Labs/Components/labka12/my_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module my_mux
+# 
+# Top level modules:
+# 	my_mux
+# 
+vsim work.my_mux
+# vsim work.my_mux 
+# Loading work.my_mux
+# ** Error: (vsim-3033) E:/study/Labs/Components/labka12/my_mux.v(109): Instantiation of 'lpm_mux' failed. The design unit was not found.
+# 
+#         Region: /my_mux
+#         Searched libraries:
+#             E:/study/Labs/Components/labka12/simulation/modelsim/rtl_work
+# Error loading design
+vsim work.labka12
+# vsim work.labka12 
+# Loading work.labka12
+# Loading work.my_mux
+# ** Error: (vsim-3033) E:/study/Labs/Components/labka12/my_mux.v(109): Instantiation of 'lpm_mux' failed. The design unit was not found.
+# 
+#         Region: /labka12/multiplexer
+#         Searched libraries:
+#             E:/study/Labs/Components/labka12/simulation/modelsim/rtl_work
+# Error loading design

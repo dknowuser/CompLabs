@@ -1,0 +1,65 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do labka1gen_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13 {E:/study/Labs/Components/labka13/my_decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module my_decode
+# 
+# Top level modules:
+# 	my_decode
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13 {E:/study/Labs/Components/labka13/labka13.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module labka13
+# 
+# Top level modules:
+# 	labka13
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 {E:/study/Labs/Components/labka12/my_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module my_mux
+# 
+# Top level modules:
+# 	my_mux
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 {E:/study/Labs/Components/labka12/labka12.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module labka12
+# 
+# Top level modules:
+# 	labka12
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka1 {E:/study/Labs/Components/labka1/labka1.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module labka1
+# 
+# Top level modules:
+# 	labka1
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/labka1gen {E:/study/Labs/Components/labka1gen/labka1gen.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module labka1gen
+# 
+# Top level modules:
+# 	labka1gen
+# 
+# vcom -93 -work work {E:/study/Labs/Components/labka1gen/simulation/modelsim/labka1gen.vht}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity labka1gen_vhd_tst
+# -- Compiling architecture labka1gen_arch of labka1gen_vhd_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench 
+# ** Error: (vsim-3170) Could not find 'E:/study/Labs/Components/labka1gen/simulation/modelsim/rtl_work.testbench'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./labka1gen_run_msim_rtl_verilog.do PAUSED at line 17

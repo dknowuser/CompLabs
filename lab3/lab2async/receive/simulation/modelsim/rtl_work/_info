@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab2\lab2async\receive\simulation\modelsim
+vasync_receiver
+!i10b 1
+!s100 ETlTG=QAP:0j4e@DmOl5C1
+I_YRj]5No6mfA;TK1dX[373
+V^>SM4IoYbC0>;N;RnD<Fh1
+Z1 dE:\study\Labs\Components\lab2\lab2async\receive\simulation\modelsim
+w1567975036
+8E:/study/Labs/Components/lab2/lab2async/receive/async_receiver.v
+FE:/study/Labs/Components/lab2/lab2async/receive/async_receiver.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1567975090.300000
+!s107 E:/study/Labs/Components/lab2/lab2async/receive/async_receiver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab2/lab2async/receive|E:/study/Labs/Components/lab2/lab2async/receive/async_receiver.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab2/lab2async/receive -O0

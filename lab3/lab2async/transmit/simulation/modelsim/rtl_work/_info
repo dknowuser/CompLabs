@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab3\lab2async\transmit\simulation\modelsim
+vasync_transmitter
+!i10b 1
+!s100 nH@Glc?RGWh6^1fWmiRBC2
+I?<h0^`Z0<114GOM2m0Y3o0
+VRJQ458EkXQm4GWAB^>7RM2
+Z1 dE:\study\Labs\Components\lab3\lab2async\transmit\simulation\modelsim
+w1569441740
+8E:/study/Labs/Components/lab3/lab2async/transmit/async_transmitter.v
+FE:/study/Labs/Components/lab3/lab2async/transmit/async_transmitter.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1569441812.550000
+!s107 E:/study/Labs/Components/lab3/lab2async/transmit/async_transmitter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab3/lab2async/transmit|E:/study/Labs/Components/lab3/lab2async/transmit/async_transmitter.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2async/transmit -O0

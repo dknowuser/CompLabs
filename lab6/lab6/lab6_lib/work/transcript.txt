@@ -1,0 +1,122 @@
+# vsim -L lab6_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2018.2/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS_2018.2/resources/downstream/modelsim/ModelSim_32Bit.dll"} lab6_lib.CONTR_AUTO 
+# Loading C:/MentorGraphics/HDS_2018.2/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading lab6_lib.CONTR_AUTO
+# hds_anim_enable /CONTR_AUTO/ TRUE 0 - current_state _proc 
+# Instance CONTR_AUTO was not generated for animation, limited capabilities are still available
+# Now sending details of /CONTR_AUTO to HDS for animation
+add wave -position end  sim:/CONTR_AUTO/Clk
+add wave -position end  sim:/CONTR_AUTO/End
+add wave -position end  sim:/CONTR_AUTO/R
+add wave -position end  sim:/CONTR_AUTO/Start
+add wave -position end  sim:/CONTR_AUTO/Busy
+add wave -position end  sim:/CONTR_AUTO/Enable
+add wave -position end  sim:/CONTR_AUTO/Ready
+force -freeze sim:/CONTR_AUTO/Clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/CONTR_AUTO/End 0 0
+force -freeze sim:/CONTR_AUTO/R 0 0
+force -freeze sim:/CONTR_AUTO/Start 0 0
+run
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/R 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/Start 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/R 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/R 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/Start 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/R 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/R 1 0
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/Start 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/Start 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/End 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/CONTR_AUTO/Start 1 0
+run
+# 0
+# 

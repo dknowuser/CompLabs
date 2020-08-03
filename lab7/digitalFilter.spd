@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="digitalFilter_sim/altera_avalon_sc_fifo.v" type="VERILOG" />
+ <file path="digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd" type="VHDL" />
+ <file
+   path="digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"
+   type="VHDL" />
+ <file
+   path="digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"
+   type="VHDL" />
+ <file
+   path="digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"
+   type="VHDL" />
+ <file path="digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/dspba_library.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/digitalFilter_rtl.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/digitalFilter_ast.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/digitalFilter.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/digitalFilter_nativelink.tcl" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_msim.tcl" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_tb.vhd" type="VHDL" />
+ <file path="digitalFilter_sim/digitalFilter_mlab.m" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_model.m" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_coef_int.txt" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_input.txt" type="OTHER" />
+ <file path="digitalFilter_sim/digitalFilter_param.txt" type="OTHER" />
+ <topLevel name="digitalFilter" />
+ <deviceFamily name="cycloneiii" />
+</simPackage>

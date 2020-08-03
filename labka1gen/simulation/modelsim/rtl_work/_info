@@ -1,0 +1,160 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka1gen\simulation\modelsim
+vlabka1
+IoIPmdc:FflYCCVIC70P7N1
+V^3^R@c;OPXI;74Nm[_:[b0
+Z1 dE:\study\Labs\Components\labka1gen\simulation\modelsim
+w1567632726
+8E:/study/Labs/Components/labka1/labka1.v
+FE:/study/Labs/Components/labka1/labka1.v
+L0 1
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 136GDiA^gSIIofUR:nT7A1
+!s85 0
+!s108 1570270531.607000
+!s107 E:/study/Labs/Components/labka1/labka1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka1|E:/study/Labs/Components/labka1/labka1.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka1 -O0
+vlabka12
+I>Zce0PDLGN8lXFD@<KE4o2
+VgFIGNZk0WXF4HOe;AQmdR0
+R1
+w1569186219
+8E:/study/Labs/Components/labka12/labka12.v
+FE:/study/Labs/Components/labka12/labka12.v
+L0 1
+R2
+r1
+31
+R3
+Z4 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 -O0
+!i10b 1
+!s100 D8F5``2cAfEeY2ZP4:H[U0
+!s85 0
+!s108 1570270531.492000
+!s107 E:/study/Labs/Components/labka12/labka12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka12|E:/study/Labs/Components/labka12/labka12.v|
+!s101 -O0
+vlabka13
+IQb8?j1_5`5O0`eTM<]W=R3
+V9[7h:9b?I]n>JJQ^f4G<]2
+R1
+w1567677860
+8E:/study/Labs/Components/labka13/labka13.v
+FE:/study/Labs/Components/labka13/labka13.v
+L0 1
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13 -O0
+!i10b 1
+!s100 DLifHjh:R4O?0cWR<`WF00
+!s85 0
+!s108 1570270531.274000
+!s107 E:/study/Labs/Components/labka13/labka13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka13|E:/study/Labs/Components/labka13/labka13.v|
+!s101 -O0
+vlabka1gen
+IXPDfMW8M:R8Rck]j2fOQA3
+Vz8;iUXM9g>n?D537]bJXC0
+R1
+w1567680203
+8E:/study/Labs/Components/labka1gen/labka1gen.v
+FE:/study/Labs/Components/labka1gen/labka1gen.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 Ujm0>@JJg8kXU5DBR:MKd2
+!s85 0
+!s108 1570270531.740000
+!s107 E:/study/Labs/Components/labka1gen/labka1gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka1gen|E:/study/Labs/Components/labka1gen/labka1gen.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka1gen -O0
+Elabka1gen_vhd_tst
+Z6 w1570270426
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z9 8E:/study/Labs/Components/labka1gen/simulation/modelsim/labka1gen.vht
+Z10 FE:/study/Labs/Components/labka1gen/simulation/modelsim/labka1gen.vht
+l0
+L30
+V:=Sb:A<7A2Ojj=bSF?d_A1
+!s100 ^EM=AiKLTJOlgBCRYD86J1
+Z11 OV;C;10.1b;51
+31
+!i10b 1
+Z12 !s108 1570270531.900000
+Z13 !s90 -reportprogress|300|-93|-work|work|E:/study/Labs/Components/labka1gen/simulation/modelsim/labka1gen.vht|
+Z14 !s107 E:/study/Labs/Components/labka1gen/simulation/modelsim/labka1gen.vht|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Alabka1gen_arch
+R7
+R8
+DEx4 work 17 labka1gen_vhd_tst 0 22 :=Sb:A<7A2Ojj=bSF?d_A1
+l47
+L32
+VWK=X;NAiPm]T2JM`8lQj73
+!s100 Q[5;cL6SA[3]T0JY4U?j71
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16
+vmy_decode
+I[EazE<PNTPAKP0mE_^c4g1
+VE5<ZPEcb>KiC_DT@nF]332
+R1
+w1567677104
+8E:/study/Labs/Components/labka13/my_decode.v
+FE:/study/Labs/Components/labka13/my_decode.v
+L0 39
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 6QYXin`:F`6aoOYA;^W2@0
+!s85 0
+!s108 1570270530.972000
+!s107 E:/study/Labs/Components/labka13/my_decode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka13|E:/study/Labs/Components/labka13/my_decode.v|
+!s101 -O0
+vmy_mux
+I;KYDeEKdl[hnR?eEa<QYU3
+VW:f7jGoXFdWZDnHo7a`P41
+R1
+w1567675219
+8E:/study/Labs/Components/labka12/my_mux.v
+FE:/study/Labs/Components/labka12/my_mux.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ^<Q5>giZhkJHe>=K0i=gU0
+!s85 0
+!s108 1570270531.387000
+!s107 E:/study/Labs/Components/labka12/my_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka12|E:/study/Labs/Components/labka12/my_mux.v|
+!s101 -O0

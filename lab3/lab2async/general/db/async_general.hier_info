@@ -1,0 +1,83 @@
+|async_general
+Clk => Clk.IN2
+Din[0] => Din[0].IN1
+Din[1] => Din[1].IN1
+Din[2] => Din[2].IN1
+Din[3] => Din[3].IN1
+Din[4] => Din[4].IN1
+Din[5] => Din[5].IN1
+Start => Start.IN1
+Dout[0] <= async_receiver:receiver.Dout
+Dout[1] <= async_receiver:receiver.Dout
+Dout[2] <= async_receiver:receiver.Dout
+Dout[3] <= async_receiver:receiver.Dout
+Dout[4] <= async_receiver:receiver.Dout
+Dout[5] <= async_receiver:receiver.Dout
+Ready <= async_receiver:receiver.Ready
+Error <= async_receiver:receiver.Error
+D_connect_trans <= D_connect_trans.DB_MAX_OUTPUT_PORT_TYPE
+D_connect_recv => ~NO_FANOUT~
+
+
+|async_general|async_transmitter:transmitter
+Clk => counter[0].CLK
+Clk => counter[1].CLK
+Clk => counter[2].CLK
+Clk => counter[3].CLK
+Clk => odd.CLK
+Clk => current_bit.CLK
+Din[0] => ShiftRight0.IN64
+Din[1] => ShiftRight0.IN63
+Din[2] => ShiftRight0.IN62
+Din[3] => ShiftRight0.IN61
+Din[4] => ShiftRight0.IN60
+Din[5] => ShiftRight0.IN59
+Start => current_bit.OUTPUTSELECT
+Start => odd.OUTPUTSELECT
+Start => counter.OUTPUTSELECT
+Start => counter.OUTPUTSELECT
+Start => counter.OUTPUTSELECT
+Start => counter.OUTPUTSELECT
+D <= current_bit.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|async_general|async_receiver:receiver
+Clk => Ready_internal.CLK
+Clk => Error_internal.CLK
+Clk => counter[0].CLK
+Clk => counter[1].CLK
+Clk => counter[2].CLK
+Clk => counter[3].CLK
+Clk => odd.CLK
+Clk => Dout_internal[0].CLK
+Clk => Dout_internal[1].CLK
+Clk => Dout_internal[2].CLK
+Clk => Dout_internal[3].CLK
+Clk => Dout_internal[4].CLK
+Clk => Dout_internal[5].CLK
+D => Error_internal.IN1
+D => Error_internal.IN1
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => odd.IN1
+D => Ready_internal.OUTPUTSELECT
+D => Error_internal.OUTPUTSELECT
+D => odd.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+Dout[0] <= Dout_internal[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout_internal[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout_internal[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout_internal[3].DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout_internal[4].DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+Ready <= Ready_internal.DB_MAX_OUTPUT_PORT_TYPE
+Error <= Error_internal.DB_MAX_OUTPUT_PORT_TYPE
+
+

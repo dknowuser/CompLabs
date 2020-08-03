@@ -1,0 +1,6 @@
+module labka12(x, y, z, w, out);
+
+input x, y, z, w;
+output out;
+
+endmodule

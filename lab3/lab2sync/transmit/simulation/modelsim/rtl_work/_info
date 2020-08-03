@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab3\lab2sync\transmit\simulation\modelsim
+vsync_transmit
+!i10b 1
+!s100 29g[U?5j9;9d9Q4MBhGMk2
+I1<4YRM^5ML[GBE:J:FSdk1
+VEP4M[BF6?G5Ma9f2Ko_>f0
+Z1 dE:\study\Labs\Components\lab3\lab2sync\transmit\simulation\modelsim
+w1569439430
+8E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v
+FE:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1569440019.159000
+!s107 E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab3/lab2sync/transmit|E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/transmit -O0

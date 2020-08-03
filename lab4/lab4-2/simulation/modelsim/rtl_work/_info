@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab4\lab4-2\simulation\modelsim
+vlab42
+!i10b 1
+!s100 CT@NWoP7dg1VK9@0kzi3M1
+IQbTYFZCOWjSVQY6]1MG]X3
+V6nNJzP;<AC:6Yk3fi]kk@0
+Z1 dE:\study\Labs\Components\lab4\lab4-2\simulation\modelsim
+w1575851481
+8E:/study/Labs/Components/lab4/lab4-2/lab42.v
+FE:/study/Labs/Components/lab4/lab4-2/lab42.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1575851545.661000
+!s107 E:/study/Labs/Components/lab4/lab4-2/lab42.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab4/lab4-2|E:/study/Labs/Components/lab4/lab4-2/lab42.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab4/lab4-2 -O0

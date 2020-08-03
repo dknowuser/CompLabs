@@ -1,0 +1,7 @@
+module labka1gen(x, out1, out2, out3);
+input [3:0] x;
+output out1, out2, out3;
+
+
+
+endmodule

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka12\simulation\modelsim
+vlabka12
+I@6_5^EDX1O0alN0_Dm5:c0
+VgFIGNZk0WXF4HOe;AQmdR0
+Z1 dE:\study\Labs\Components\labka12\simulation\modelsim
+w1567675725
+8E:/study/Labs/Components/labka12/labka12.v
+FE:/study/Labs/Components/labka12/labka12.v
+L0 1
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 ObGld@AL;cjP4;QVD8DO;0
+!s85 0
+!s108 1567675968.881000
+!s107 E:/study/Labs/Components/labka12/labka12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka12|E:/study/Labs/Components/labka12/labka12.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka12 -O0
+vmy_mux
+!i10b 1
+!s100 ^<Q5>giZhkJHe>=K0i=gU0
+I;KYDeEKdl[hnR?eEa<QYU3
+VW:f7jGoXFdWZDnHo7a`P41
+R1
+w1567675219
+8E:/study/Labs/Components/labka12/my_mux.v
+FE:/study/Labs/Components/labka12/my_mux.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1567675969.027000
+!s107 E:/study/Labs/Components/labka12/my_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka12|E:/study/Labs/Components/labka12/my_mux.v|
+!s101 -O0
+R3
+R4

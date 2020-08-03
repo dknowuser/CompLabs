@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab6q">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab6q|BIT_COUNTER:current_bit_counter|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_cri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab6q|BIT_COUNTER:fall_edge_counter|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_cri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab6q|BIT_MUX:current_bit_multiplexer|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_grc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

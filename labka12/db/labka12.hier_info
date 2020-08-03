@@ -1,0 +1,8 @@
+|labka12
+x[0] => ~NO_FANOUT~
+x[1] => ~NO_FANOUT~
+x[2] => ~NO_FANOUT~
+x[3] => ~NO_FANOUT~
+out <= <GND>
+
+

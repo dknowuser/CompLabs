@@ -1,0 +1,25 @@
+set_global_assignment -entity "digitalFilter" -library "lib_digitalFilter" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "digitalFilter" -library "lib_digitalFilter" -name IP_TOOL_VERSION "12.1sp1"
+set_global_assignment -entity "digitalFilter" -library "lib_digitalFilter" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "lib_digitalFilter" -name SPD_FILE [file join $::quartus(sip_path) "digitalFilter.spd"]
+
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/dspba_library_package.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/dspba_library.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_rtl.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_ast.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_nativelink.tcl"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_msim.tcl"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_tb.vhd"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_mlab.m"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_model.m"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_coef_int.txt"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_input.txt"]
+set_global_assignment -library "lib_digitalFilter" -name MISC_FILE [file join $::quartus(sip_path) "digitalFilter_sim/digitalFilter_param.txt"]

@@ -1,0 +1,77 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab42_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab4/lab4-2 {E:/study/Labs/Components/lab4/lab4-2/lab42.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lab42
+# 
+# Top level modules:
+# 	lab42
+# 
+vsim work.lab42
+# vsim work.lab42 
+# Loading work.lab42
+add wave -position end  sim:/lab42/read_clk
+add wave -position end  sim:/lab42/write_clk
+add wave -position end  sim:/lab42/in_data
+add wave -position end  sim:/lab42/out_data
+add wave -position end  sim:/lab42/empty
+add wave -position end  sim:/lab42/full
+force -freeze sim:/lab42/in_data 000000000 0
+force -freeze sim:/lab42/read_clk 0 0
+force -freeze sim:/lab42/write_clk 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/lab42/in_data 000000001 0
+run
+force -freeze sim:/lab42/in_data 000000010 0
+run
+force -freeze sim:/lab42/in_data 000000011 0
+run
+force -freeze sim:/lab42/in_data 000000100 0
+run
+force -freeze sim:/lab42/in_data 000000101 0
+run
+force -freeze sim:/lab42/in_data 000000110 0
+run
+force -freeze sim:/lab42/in_data 000000111 0
+run
+force -freeze sim:/lab42/in_data 000001000 0
+run
+force -freeze sim:/lab42/in_data 000001001 0
+run
+force -freeze sim:/lab42/in_data 000001010 0
+run
+force -freeze sim:/lab42/in_data 000001011 0
+run
+run
+noforce sim:/lab42/write_clk
+force -freeze sim:/lab42/write_clk 0 0
+force -freeze sim:/lab42/read_clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

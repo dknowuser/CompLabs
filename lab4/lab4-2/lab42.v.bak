@@ -1,0 +1,3 @@
+module lab42(clk);
+input clk;
+endmodule

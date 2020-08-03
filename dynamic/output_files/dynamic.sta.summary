@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -30.800
+TNS   : -11273.774
+
+Type  : Slow 1200mV 85C Model Setup 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : -0.063
+TNS   : -0.063
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -509.566
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -27.674
+TNS   : -10105.910
+
+Type  : Slow 1200mV 0C Model Setup 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : -0.008
+TNS   : -0.008
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : -0.056
+TNS   : -0.056
+
+Type  : Slow 1200mV 0C Model Hold 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -509.566
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -17.060
+TNS   : -6216.211
+
+Type  : Fast 1200mV 0C Model Setup 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : -0.077
+TNS   : -0.077
+
+Type  : Fast 1200mV 0C Model Hold 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -535.881
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mc8051_core:processor|mc8051_control:i_mc8051_control|control_mem:i_control_mem|p3[2]'
+Slack : -1.000
+TNS   : -32.000
+
+------------------------------------------------------------

@@ -1,0 +1,40 @@
+|async_receiver
+Clk => Ready_internal.CLK
+Clk => Error_internal.CLK
+Clk => counter[0].CLK
+Clk => counter[1].CLK
+Clk => counter[2].CLK
+Clk => counter[3].CLK
+Clk => odd.CLK
+Clk => Dout_internal[0].CLK
+Clk => Dout_internal[1].CLK
+Clk => Dout_internal[2].CLK
+Clk => Dout_internal[3].CLK
+Clk => Dout_internal[4].CLK
+Clk => Dout_internal[5].CLK
+D => Error_internal.IN1
+D => Error_internal.IN1
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => odd.IN1
+D => Ready_internal.OUTPUTSELECT
+D => Error_internal.OUTPUTSELECT
+D => odd.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+D => counter.OUTPUTSELECT
+Dout[0] <= Dout_internal[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout_internal[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout_internal[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout_internal[3].DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout_internal[4].DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+Ready <= Ready_internal.DB_MAX_OUTPUT_PORT_TYPE
+Error <= Error_internal.DB_MAX_OUTPUT_PORT_TYPE
+
+

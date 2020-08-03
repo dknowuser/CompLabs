@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Sep 25 23:12:42 2019
+Quartus II 64-Bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition
+Revision Name : async_receiver
+Top-level Entity Name : async_receiver
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 26 / 15,408 ( < 1 % )
+    Total combinational functions : 26 / 15,408 ( < 1 % )
+    Dedicated logic registers : 13 / 15,408 ( < 1 % )
+Total registers : 13
+Total pins : 10 / 347 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

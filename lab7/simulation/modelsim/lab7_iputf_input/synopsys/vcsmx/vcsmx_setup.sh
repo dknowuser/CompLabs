@@ -1,0 +1,15 @@
+
+
+vlogan +v2k  "E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v"                        
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd"                   
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd"                    
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"      
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"    
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd"                   
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd"                      
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd"                              
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd"                          
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd"                          
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd"                              
+vhdlan -xlrm "E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd"                           

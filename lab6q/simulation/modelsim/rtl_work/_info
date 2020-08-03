@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab6q\simulation\modelsim
+vBIT_COUNTER
+!i10b 1
+!s100 zU>mng5lJbln<gmfN>VZ93
+ICdK[Bm]hN6:KB8fFaO4oB1
+V6:b>UEUjo:GZ>;FR5Q:Ia0
+Z1 dE:\study\Labs\Components\lab6q\simulation\modelsim
+w1576178225
+8E:/study/Labs/Components/lab6q/BIT_COUNTER.v
+FE:/study/Labs/Components/lab6q/BIT_COUNTER.v
+L0 39
+Z2 OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1576183711.915000
+!s107 E:/study/Labs/Components/lab6q/BIT_COUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab6q|E:/study/Labs/Components/lab6q/BIT_COUNTER.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab6q -O0
+n@b@i@t_@c@o@u@n@t@e@r
+vlab6q
+IUdlKa?eMLennmgfW`GH^:3
+VKzBUGeokdL0lZRK6lWboc1
+R1
+w1576183669
+8E:/study/Labs/Components/lab6q/lab6q.v
+FE:/study/Labs/Components/lab6q/lab6q.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 bO?:GX0mmW[m]hKiAFl2C3
+!s85 0
+!s108 1576183711.757000
+!s107 E:/study/Labs/Components/lab6q/lab6q.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab6q|E:/study/Labs/Components/lab6q/lab6q.v|
+!s101 -O0
+R4

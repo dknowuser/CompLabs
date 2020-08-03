@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka1gen
+vlabka1
+Z1 INZBazWBFl42YK>[WDWF5>2
+Z2 V^3^R@c;OPXI;74Nm[_:[b0
+Z3 dE:\study\Labs\Components\labka1gen
+Z4 w1567632726
+Z5 8E:/study/Labs/Components/labka1/labka1.v
+Z6 FE:/study/Labs/Components/labka1/labka1.v
+L0 1
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 136GDiA^gSIIofUR:nT7A1
+Z10 !s108 1567680142.997000
+Z11 !s107 E:/study/Labs/Components/labka1/labka1.v|
+Z12 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka1/labka1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlabka12
+Z13 IC9>>3AKNiNiNkWbg:KP9H3
+Z14 VgFIGNZk0WXF4HOe;AQmdR0
+R3
+Z15 w1567675725
+Z16 8E:/study/Labs/Components/labka12/labka12.v
+Z17 FE:/study/Labs/Components/labka12/labka12.v
+L0 1
+R7
+r1
+31
+R8
+Z18 !s100 ObGld@AL;cjP4;QVD8DO;0
+Z19 !s108 1567680147.780000
+Z20 !s107 E:/study/Labs/Components/labka12/labka12.v|
+Z21 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka12/labka12.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlabka13
+Z22 I6^H01;YT:o]6LB7FkR8GG1
+Z23 V9[7h:9b?I]n>JJQ^f4G<]2
+R3
+Z24 w1567677860
+Z25 8E:/study/Labs/Components/labka13/labka13.v
+Z26 FE:/study/Labs/Components/labka13/labka13.v
+L0 1
+R7
+r1
+31
+R8
+Z27 !s100 DLifHjh:R4O?0cWR<`WF00
+Z28 !s108 1567680152.345000
+Z29 !s107 E:/study/Labs/Components/labka13/labka13.v|
+Z30 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka13/labka13.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlabka1gen
+!i10b 1
+!s100 Ujm0>@JJg8kXU5DBR:MKd2
+IOa70`IBWO[[EkA?>49_GW0
+Z31 Vz8;iUXM9g>n?D537]bJXC0
+R3
+w1567680203
+Z32 8E:/study/Labs/Components/labka1gen/labka1gen.v
+Z33 FE:/study/Labs/Components/labka1gen/labka1gen.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1567680245.076000
+!s107 E:/study/Labs/Components/labka1gen/labka1gen.v|
+Z34 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka1gen/labka1gen.v|
+!s101 -O0
+R8
+vmy_decode
+Z35 INg0jLYo1FPf?RF<DzcGhO1
+Z36 VE5<ZPEcb>KiC_DT@nF]332
+R3
+Z37 w1567677104
+Z38 8E:/study/Labs/Components/labka13/my_decode.v
+Z39 FE:/study/Labs/Components/labka13/my_decode.v
+L0 39
+R7
+r1
+31
+R8
+!i10b 1
+Z40 !s100 6QYXin`:F`6aoOYA;^W2@0
+!s85 0
+Z41 !s108 1567680152.476000
+Z42 !s107 E:/study/Labs/Components/labka13/my_decode.v|
+Z43 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka13/my_decode.v|
+!s101 -O0
+vmy_mux
+Z44 INGRhP0Gz7Mm81l@8iVzSz0
+Z45 VW:f7jGoXFdWZDnHo7a`P41
+R3
+Z46 w1567675219
+Z47 8E:/study/Labs/Components/labka12/my_mux.v
+Z48 FE:/study/Labs/Components/labka12/my_mux.v
+L0 39
+R7
+r1
+31
+R8
+Z49 !s100 ^<Q5>giZhkJHe>=K0i=gU0
+Z50 !s108 1567680147.915000
+Z51 !s107 E:/study/Labs/Components/labka12/my_mux.v|
+Z52 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/labka12/my_mux.v|
+!i10b 1
+!s85 0
+!s101 -O0

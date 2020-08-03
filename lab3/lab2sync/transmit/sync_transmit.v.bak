@@ -1,0 +1,5 @@
+module sync_transmit(clk_in, clk_out, d, fs);
+input clk_in;
+output clk_out, d, fs;
+
+endmodule

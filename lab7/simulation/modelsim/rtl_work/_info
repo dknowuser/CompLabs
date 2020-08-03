@@ -1,0 +1,497 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab7\simulation\modelsim
+valtera_avalon_sc_fifo
+IjgBoDl4Se96IXoOWdI[9n3
+VjOzUMS5nAQIa6?lLKEfID0
+Z1 dE:\study\Labs\Components\lab7\simulation\modelsim
+Z2 w1573916186
+8E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v
+FE:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v
+L0 21
+Z3 OV;L;10.1b;51
+r1
+31
+o-O0
+!i10b 1
+!s100 MM7hb9R1KZY4XG7Q50@Sa0
+!s85 0
+!s108 1574286685.498000
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/altera_avalon_sc_fifo.v|
+!s101 -O0
+Eauk_dspip_avalon_streaming_controller_hpfir
+R2
+Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z7 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z8 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+V@2PCfWbT@T8[VSO<_z37U1
+Z9 OV;C;10.1b;51
+32
+Z10 !s108 1574286686.062000
+Z11 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z12 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+o-O0
+Z13 tExplicit 1
+!s100 :Km6hF?2SIGhCI]CCRB8R3
+!i10b 1
+Astruct
+R4
+R5
+R6
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 @2PCfWbT@T8[VSO<_z37U1
+l72
+L64
+VXb]<XB`MjBcT4hg;=Y39:2
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!s100 d^`@P<cO?Ae3FI>HI]@mC0
+!i10b 1
+Eauk_dspip_avalon_streaming_sink_hpfir
+R2
+Z14 DPx9 altera_mf 20 altera_mf_components 0 22 bKSlDL8m]:Go@;Tj0Qh@a2
+Z15 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 ]<bm40g8oXJgckhRGGcPb0
+Z16 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 Z1W3PnUn6Sk>a<@k[jKzW3
+Z17 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+R1
+Z18 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z19 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+V2knShjUBf0CGV@g_8JHQ63
+R9
+32
+Z20 !s108 1574286686.301000
+Z21 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z22 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+o-O0
+R13
+!s100 X=?PHjSK;PSkCm[IYA^@02
+!i10b 1
+Artl
+R14
+R15
+R16
+R17
+R5
+R6
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 2knShjUBf0CGV@g_8JHQ63
+l164
+L106
+VMd8DJLC^[joM]>DQB[<YR1
+R9
+32
+R20
+R21
+R22
+o-O0
+R13
+!s100 d1`Vk5Z@a]Q=KDU3W=B]H3
+!i10b 1
+Eauk_dspip_avalon_streaming_source_hpfir
+R2
+R15
+R14
+R17
+R5
+R6
+R1
+Z23 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z24 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+V_biA<nMGdBWhRGbXO6Blz3
+R9
+32
+Z25 !s108 1574286686.538000
+Z26 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z27 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+o-O0
+R13
+!s100 z61=GE?nV4baRO4^14Czd2
+!i10b 1
+Artl
+R15
+R14
+R17
+R5
+R6
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 _biA<nMGdBWhRGbXO6Blz3
+l190
+L109
+Vg02lb`X]XP<AD1h2L1QLM0
+R9
+32
+R25
+R26
+R27
+o-O0
+R13
+!s100 9Dmb32DBg2LcB];:ibk821
+!i10b 1
+Pauk_dspip_lib_pkg_hpfir
+R15
+R17
+R5
+R6
+R2
+R1
+8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd
+FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+VZ1W3PnUn6Sk>a<@k[jKzW3
+R9
+32
+o-O0
+R13
+!s100 Q<H^mQVRzgBIk@CWQl<Xg2
+!i10b 1
+!s108 1574286685.898000
+!s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_lib_pkg_hpfir.vhd|
+Pauk_dspip_math_pkg_hpfir
+R17
+R5
+R6
+R2
+R1
+Z28 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd
+Z29 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+V]<bm40g8oXJgckhRGGcPb0
+R9
+32
+b1
+Z30 !s108 1574286685.688000
+Z31 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd|
+Z32 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_math_pkg_hpfir.vhd|
+o-O0
+R13
+!s100 GlH[CN>ISbN0k?204PBjF1
+!i10b 1
+Bbody
+R15
+R17
+R5
+R6
+l0
+L131
+VKKZ:HkVJ@J?M?TR34>4mj3
+R9
+32
+R30
+R31
+R32
+o-O0
+R13
+nbody
+!s100 e8T_@B_WY1l_0mWS7M2ER3
+!i10b 1
+Eauk_dspip_roundsat_hpfir
+R2
+R17
+R5
+R6
+R1
+Z33 8E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd
+Z34 FE:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+VQ^0P<ACY@IcV:Nn4L`<NB0
+R9
+32
+Z35 !s108 1574286686.779000
+Z36 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd|
+Z37 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/auk_dspip_roundsat_hpfir.vhd|
+o-O0
+R13
+!s100 MTFVel;]g54IPMz7aW[f82
+!i10b 1
+Abeh
+R17
+R5
+R6
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 Q^0P<ACY@IcV:Nn4L`<NB0
+l66
+L57
+Vm2Gd@1PIT6LP<zdl6h]dG1
+R9
+32
+R35
+R36
+R37
+o-O0
+R13
+!s100 P<CBf[n_IVB3WDF=>nNJg0
+!i10b 1
+Edigitalfilter
+R2
+R5
+R6
+R1
+Z38 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd
+Z39 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd
+l0
+L4
+V?=B1U>V47kAcX3>m7E5zT2
+R9
+32
+Z40 !s108 1574286724.678000
+Z41 !s90 -reportprogress|300|-O0|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd|
+Z42 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter.vhd|
+o-O0
+R13
+!s100 HFjQ4lR;d3Fndf5zVcFC13
+!i10b 1
+Asyn
+R5
+R6
+Z43 DEx4 work 13 digitalfilter 0 22 ?=B1U>V47kAcX3>m7E5zT2
+l38
+L17
+V9JAeUV?5=:c=c;I7]E3212
+R9
+32
+R40
+R41
+R42
+o-O0
+R13
+!s100 2f^QL@hj]F0XcW_TXXnR=3
+!i10b 1
+Edigitalfilter_ast
+R2
+R15
+R16
+R17
+R5
+R6
+R1
+Z44 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd
+Z45 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd
+l0
+L22
+V0YD2Yck;hfMZEK=A8no7U3
+R9
+32
+Z46 !s108 1574286687.589000
+Z47 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd|
+Z48 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_ast.vhd|
+o-O0
+R13
+!s100 BjmhS>T:e6P`3H8?ZKLzb3
+!i10b 1
+Astruct
+R15
+R16
+R17
+R5
+R6
+DEx4 work 17 digitalfilter_ast 0 22 0YD2Yck;hfMZEK=A8no7U3
+l111
+L66
+VNiN:o^m;RD_:fGj^OK?F[3
+R9
+32
+R46
+R47
+R48
+o-O0
+R13
+!s100 ^Jzkdo6Khn>M6kDG:V^N<1
+!i10b 1
+Edigitalfilter_rtl
+R2
+Z49 DPx3 lpm 14 lpm_components 0 22 QP=H4OR=`gFH<P:[5cCAR0
+R14
+Z50 DPx4 work 21 dspba_library_package 0 22 Zbfm040]E0GOcP>U2eHT@3
+Z51 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R17
+R5
+R6
+R1
+Z52 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd
+Z53 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd
+l0
+L35
+VQF`N<eCo1ZzG`6ATo39Kg1
+R9
+32
+Z54 !s108 1574286687.332000
+Z55 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd|
+Z56 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_rtl.vhd|
+o-O0
+R13
+!s100 >^3;lR^=[B]Y0[H78iKCg3
+!i10b 1
+Anormal
+R49
+R14
+R50
+R51
+R17
+R5
+R6
+DEx4 work 17 digitalfilter_rtl 0 22 QF`N<eCo1ZzG`6ATo39Kg1
+l453
+L48
+VU9k9M0ZT7iXB@e9cU:Ph91
+R9
+32
+R54
+R55
+R56
+o-O0
+R13
+!s100 A2E4zABR07D9NhoYFV<411
+!i10b 1
+Edigitalfilter_tb
+R2
+R17
+R5
+R6
+R1
+Z57 8E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd
+Z58 FE:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd
+l0
+L32
+VM5DJg09h28AT34WQ:aP^93
+R9
+32
+Z59 !s108 1574286688.017000
+Z60 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd|
+Z61 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/digitalFilter_tb.vhd|
+o-O0
+R13
+!s100 [TY=S2SKMW]Zm^eH5jdg:0
+!i10b 1
+Artl
+R43
+R17
+R5
+R6
+DEx4 work 16 digitalfilter_tb 0 22 M5DJg09h28AT34WQ:aP^93
+l99
+L68
+VcW8XVbQf9OMdUGM`g=MOi1
+R9
+32
+R59
+R60
+R61
+o-O0
+R13
+!s100 bHYjnacdbAF]z4hBR8IQC1
+!i10b 1
+Edspba_delay
+R2
+R50
+R5
+R6
+R1
+Z62 8E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd
+Z63 FE:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd
+l0
+L17
+VaIig5ZbNYLza:UIjIVZfR1
+R9
+32
+Z64 !s108 1574286687.110000
+Z65 !s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd|
+Z66 !s107 E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library.vhd|
+o-O0
+R13
+!s100 K^PJ5TW8^ZVUIJChTg=lZ1
+!i10b 1
+Adelay
+R50
+R5
+R6
+DEx4 work 11 dspba_delay 0 22 aIig5ZbNYLza:UIjIVZfR1
+l35
+L32
+Vk>_KlXIadAiDhSZaejjiC3
+R9
+32
+R64
+R65
+R66
+o-O0
+R13
+!s100 ;1z;WB<<KLFEnnM1^>QTK1
+!i10b 1
+Pdspba_library_package
+R5
+R6
+R2
+R1
+8E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd
+FE:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd
+l0
+L16
+VZbfm040]E0GOcP>U2eHT@3
+R9
+32
+o-O0
+R13
+!s100 ]j_1A>i;UcFgb]nK<PO9X2
+!i10b 1
+!s108 1574286686.966000
+!s90 -reportprogress|300|E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd|
+!s107 E:/study/Labs/Components/lab7/digitalFilter_sim/dspba_library_package.vhd|
+vlab7
+!i10b 1
+!s100 Y4SNh9FgXl_nWE>]M2ZXh2
+IP84ZJHdiBJ9Lk4U<E2SDd2
+V4H_DPaSFIbo3VkFgAJO7g3
+R1
+w1574286645
+8E:/study/Labs/Components/lab7/lab7.v
+FE:/study/Labs/Components/lab7/lab7.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1574286732.324000
+!s107 E:/study/Labs/Components/lab7/lab7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab7|-O0|E:/study/Labs/Components/lab7/lab7.v|
+!s101 -O0
+Z67 o-vlog01compat -work work -O0
+Z68 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab7 -O0
+vsine_cos
+ImOh8[b];llX<e`G>z8MAj2
+VNJi5D=S0_]Lcj6Ac6acc_1
+R1
+w1574284217
+8E:/study/Labs/Components/lab7/sine_cos.v
+FE:/study/Labs/Components/lab7/sine_cos.v
+L0 1
+R3
+r1
+31
+R67
+R68
+!i10b 1
+!s100 Bi>d?Q:ObAcVdA0<<7W=P2
+!s85 0
+!s108 1574286729.073000
+!s107 E:/study/Labs/Components/lab7/sine_cos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab7|-O0|E:/study/Labs/Components/lab7/sine_cos.v|
+!s101 -O0

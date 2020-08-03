@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, E:/study/Labs/Components/labka1/labka1.v
+source_file = 1, E:/study/Labs/Components/labka1/db/labka1.cbx.xml
+design_name = labka1
+instance = comp, \out~output\, out~output, labka1, 1
+instance = comp, \x~input\, x~input, labka1, 1
+instance = comp, \w~input\, w~input, labka1, 1
+instance = comp, \y~input\, y~input, labka1, 1
+instance = comp, \z~input\, z~input, labka1, 1
+instance = comp, \out~0\, out~0, labka1, 1

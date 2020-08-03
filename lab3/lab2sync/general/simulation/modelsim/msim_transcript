@@ -1,0 +1,53 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do sync_general_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/receive {E:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module sync_receive
+# 
+# Top level modules:
+# 	sync_receive
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/transmit {E:/study/Labs/Components/lab3/lab2sync/transmit/sync_transmit.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module sync_transmit
+# 
+# Top level modules:
+# 	sync_transmit
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab3/lab2sync/general {E:/study/Labs/Components/lab3/lab2sync/general/sync_general.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module sync_general
+# 
+# Top level modules:
+# 	sync_general
+# 
+vsim work.sync_general
+# vsim work.sync_general 
+# Loading work.sync_general
+# Loading work.sync_transmit
+# Loading work.sync_receive
+add wave -position end  sim:/sync_general/Clk
+add wave -position end  sim:/sync_general/Start
+add wave -position end  sim:/sync_general/Din
+add wave -position end  sim:/sync_general/Ready
+add wave -position end  sim:/sync_general/Error
+add wave -position end  sim:/sync_general/Dout
+force -freeze sim:/sync_general/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sync_general/Start 1 0, 0 {22400 ps} -r 44800
+force -freeze {sim:/sync_general/Din[0]} 0 0, 1 {700 ps} -r 1400
+force -freeze {sim:/sync_general/Din[1]} 0 0, 1 {1400 ps} -r 2800
+force -freeze {sim:/sync_general/Din[2]} 0 0, 1 {2800 ps} -r 5600
+force -freeze {sim:/sync_general/Din[3]} 0 0, 1 {5600 ps} -r 11200
+force -freeze {sim:/sync_general/Din[4]} 0 0, 1 {11200 ps} -r 22400
+force -freeze {sim:/sync_general/Din[5]} 0 0, 1 {22400 ps} -r 44800
+run -all
+# Break key hit 
+# Break in Module sync_receive at E:/study/Labs/Components/lab3/lab2sync/receive/sync_receive.v line 14

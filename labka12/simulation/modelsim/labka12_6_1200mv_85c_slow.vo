@@ -1,0 +1,140 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "09/06/2019 00:00:24"
+
+// 
+// Device: Altera EP3C16F484C6 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module labka12 (
+	x,
+	out);
+input 	[3:0] x;
+output 	out;
+
+// Design Ports Information
+// out	=>  Location: PIN_F7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// x[1]	=>  Location: PIN_B3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// x[3]	=>  Location: PIN_E6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// x[0]	=>  Location: PIN_E5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// x[2]	=>  Location: PIN_G7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("labka12_6_1200mv_85c_v_slow.sdo");
+// synopsys translate_on
+
+wire \out~output_o ;
+wire \x[3]~input_o ;
+wire \x[0]~input_o ;
+wire \x[2]~input_o ;
+wire \x[1]~input_o ;
+wire \multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0_combout ;
+
+
+// Location: IOOBUF_X1_Y29_N9
+cycloneiii_io_obuf \out~output (
+	.i(\multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out~output .bus_hold = "false";
+defparam \out~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X1_Y29_N22
+cycloneiii_io_ibuf \x[3]~input (
+	.i(x[3]),
+	.ibar(gnd),
+	.o(\x[3]~input_o ));
+// synopsys translate_off
+defparam \x[3]~input .bus_hold = "false";
+defparam \x[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X1_Y29_N29
+cycloneiii_io_ibuf \x[0]~input (
+	.i(x[0]),
+	.ibar(gnd),
+	.o(\x[0]~input_o ));
+// synopsys translate_off
+defparam \x[0]~input .bus_hold = "false";
+defparam \x[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X1_Y29_N15
+cycloneiii_io_ibuf \x[2]~input (
+	.i(x[2]),
+	.ibar(gnd),
+	.o(\x[2]~input_o ));
+// synopsys translate_off
+defparam \x[2]~input .bus_hold = "false";
+defparam \x[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X3_Y29_N8
+cycloneiii_io_ibuf \x[1]~input (
+	.i(x[1]),
+	.ibar(gnd),
+	.o(\x[1]~input_o ));
+// synopsys translate_off
+defparam \x[1]~input .bus_hold = "false";
+defparam \x[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X2_Y28_N0
+cycloneiii_lcell_comb \multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0 (
+// Equation(s):
+// \multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0_combout  = (\x[1]~input_o  & (((\x[3]~input_o  & !\x[0]~input_o )) # (!\x[2]~input_o ))) # (!\x[1]~input_o  & (!\x[3]~input_o  & (\x[0]~input_o )))
+
+	.dataa(\x[3]~input_o ),
+	.datab(\x[0]~input_o ),
+	.datac(\x[2]~input_o ),
+	.datad(\x[1]~input_o ),
+	.cin(gnd),
+	.combout(\multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0 .lut_mask = 16'h2F44;
+defparam \multiplexer|LPM_MUX_component|auto_generated|result_node[0]~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign out = \out~output_o ;
+
+endmodule

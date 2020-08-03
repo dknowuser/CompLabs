@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab5\stat\simulation\modelsim
+Emc8051_core
+Z1 w1175238390
+DPx4 work 8 mc8051_p 0 22 _KYUgJSP[0V?K711X7f=M1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\study\Labs\Components\lab5\stat\simulation\modelsim
+8E:/study/Labs/Components/lab5/stat/mc8051_core_.vhd
+FE:/study/Labs/Components/lab5/stat/mc8051_core_.vhd
+l0
+L75
+Vi5`8BmH0_I`jfb2fU[O5L0
+!s100 BAbecWU_f0E>P5bUOa07Q3
+Z6 OV;C;10.1b;51
+32
+!i10b 1
+!s108 1569953538.437000
+!s90 -reportprogress|30|-work|work|E:/study/Labs/Components/lab5/stat/mc8051_core_.vhd|
+!s107 E:/study/Labs/Components/lab5/stat/mc8051_core_.vhd|
+Z7 o-work work -O0
+Z8 tExplicit 1
+Pmc8051_p
+R2
+R3
+R4
+R1
+R5
+8E:/study/Labs/Components/lab5/stat/mc8051_p.vhd
+FE:/study/Labs/Components/lab5/stat/mc8051_p.vhd
+l0
+L69
+V_KYUgJSP[0V?K711X7f=M1
+R6
+32
+R7
+R8
+!s100 @`]LFNfhlg4hH_LI6D]lG1
+!i10b 1
+!s108 1569953536.532000
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab5/stat/mc8051_p.vhd|
+!s107 E:/study/Labs/Components/lab5/stat/mc8051_p.vhd|
+Emc8051_tmrctr
+R1
+R2
+R3
+R4
+R5
+8E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_.vhd
+FE:/study/Labs/Components/lab5/stat/mc8051_tmrctr_.vhd
+l0
+L71
+ViR3I_8aOS2K?67gNo;BNC0
+R6
+32
+R7
+R8
+!s100 kS99kF:@4[l=hOO1_ONkh1
+!i10b 1
+!s108 1569953514.743000
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_.vhd|
+!s107 E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_.vhd|
+Artl
+R2
+R3
+R4
+DEx4 work 13 mc8051_tmrctr 0 22 iR3I_8aOS2K?67gNo;BNC0
+8E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_rtl.vhd
+FE:/study/Labs/Components/lab5/stat/mc8051_tmrctr_rtl.vhd
+l100
+L65
+VTOZH@hXnT3H_Y0gl8e`=P1
+R6
+32
+R7
+R8
+!s100 jFV0f9=`kG=5jm=Ub<4B@2
+!i10b 1
+!s108 1569953518.712000
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_rtl.vhd|
+!s107 E:/study/Labs/Components/lab5/stat/mc8051_tmrctr_rtl.vhd|
+vmy_rom
+IVPD7ThE2ko7>N`QbOW<h93
+V4W6mz?Y7<Y4Ak<EbBgjIl2
+R5
+w1569938927
+8E:/study/Labs/Components/lab5/stat/my_rom.v
+FE:/study/Labs/Components/lab5/stat/my_rom.v
+L0 39
+Z9 OV;L;10.1b;51
+r1
+31
+Z10 o-vlog01compat -work work -O0
+Z11 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab5/stat -O0
+!i10b 1
+!s100 `limgG[HGW6MPZj3^Hj:Z1
+!s85 0
+!s108 1569953496.100000
+!s107 E:/study/Labs/Components/lab5/stat/my_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab5/stat|E:/study/Labs/Components/lab5/stat/my_rom.v|
+!s101 -O0
+vstat
+Icodagcf^adNPj3[`=^CMa2
+VznRzhZGTSR5a<_;i]zzZd2
+R5
+w1569953052
+8E:/study/Labs/Components/lab5/stat/stat.v
+FE:/study/Labs/Components/lab5/stat/stat.v
+L0 1
+R9
+r1
+31
+R10
+R11
+!i10b 1
+!s100 OaXCP8nPYJ``DE=fo?a^V2
+!s85 0
+!s108 1569953495.936000
+!s107 E:/study/Labs/Components/lab5/stat/stat.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab5/stat|E:/study/Labs/Components/lab5/stat/stat.v|
+!s101 -O0

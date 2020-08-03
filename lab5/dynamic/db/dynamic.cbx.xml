@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dynamic">
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|mc8051_core:processor|mc8051_alu:i_mc8051_alu|comb_mltplr:\gen_multiplier1:i_comb_mltplr|lpm_mult:Mult0" CBX_FILE_NAME="mult_19t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_decode:decode|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_0af.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_mux:multi1|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_5qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_mux:multi3|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_5qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_rom:rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9h91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_mux:multi0|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_5qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dynamic|my_mux:multi2|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_5qc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

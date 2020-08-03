@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab4\lab4-1\simulation\modelsim
+vlab41
+IMh59Kh]6ocMzgicX]J0[m0
+V76ka?QK1YO>RaM:dl?:fJ3
+Z1 dE:\study\Labs\Components\lab4\lab4-1\simulation\modelsim
+w1575833251
+8E:/study/Labs/Components/lab4/lab4-1/lab41.v
+FE:/study/Labs/Components/lab4/lab4-1/lab41.v
+L0 1
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 S=lGGT;C7Y35@ecT5;a<l3
+!s85 0
+!s108 1575833324.049000
+!s107 E:/study/Labs/Components/lab4/lab4-1/lab41.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab4/lab4-1|E:/study/Labs/Components/lab4/lab4-1/lab41.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/lab4/lab4-1 -O0
+vram_dp
+!i10b 1
+!s100 ]`4^`oWV?kbJdlUgRF1K>2
+I<c7:ROZNLhBN5>6Ra8TH]2
+V5lAPZl[iAb1[P[^<EMD>F2
+R1
+w1575832879
+8E:/study/Labs/Components/lab4/lab4-1/ram_dp.v
+FE:/study/Labs/Components/lab4/lab4-1/ram_dp.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1575833324.172000
+!s107 E:/study/Labs/Components/lab4/lab4-1/ram_dp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/lab4/lab4-1|E:/study/Labs/Components/lab4/lab4-1/ram_dp.v|
+!s101 -O0
+R3
+R4

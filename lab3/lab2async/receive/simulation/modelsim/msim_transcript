@@ -1,0 +1,52 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do async_receiver_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/Components/lab2/lab2async/receive {E:/study/Labs/Components/lab2/lab2async/receive/async_receiver.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module async_receiver
+# 
+# Top level modules:
+# 	async_receiver
+# 
+vsim work.async_receiver
+# vsim work.async_receiver 
+# Loading work.async_receiver
+add wave -position end  sim:/async_receiver/Clk
+add wave -position end  sim:/async_receiver/D
+add wave -position end  sim:/async_receiver/Ready
+add wave -position end  sim:/async_receiver/Error
+add wave -position end  sim:/async_receiver/Dout
+force -freeze sim:/async_receiver/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/async_receiver/D 0 0, 1 {200 ps} -r 400
+run
+run
+restart -f
+force -freeze sim:/async_receiver/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/async_receiver/D 1 0, 0 {200 ps} -r 400
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

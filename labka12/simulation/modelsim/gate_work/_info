@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka12\simulation\modelsim
+vlabka12
+!i10b 1
+!s100 :j8AeSEAXFD;^Cf37:S6Y3
+IYM?`e`5lH2K3E?zn0Zilk2
+VgFIGNZk0WXF4HOe;AQmdR0
+Z1 dE:\study\Labs\Components\labka12\simulation\modelsim
+w1567672062
+8labka12_6_1200mv_85c_slow.vo
+Flabka12_6_1200mv_85c_slow.vo
+L0 31
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1567672094.056000
+!s107 labka12_6_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|labka12_6_1200mv_85c_slow.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

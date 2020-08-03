@@ -1,0 +1,6 @@
+module labka13(x, out);
+input [3:0] x;
+output out;
+
+
+endmodule

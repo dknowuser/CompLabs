@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka1\simulation\modelsim
+vlabka1
+!i10b 1
+!s100 136GDiA^gSIIofUR:nT7A1
+IoIPmdc:FflYCCVIC70P7N1
+V^3^R@c;OPXI;74Nm[_:[b0
+Z1 dE:\study\Labs\Components\labka1\simulation\modelsim
+w1567632726
+8E:/study/Labs/Components/labka1/labka1.v
+FE:/study/Labs/Components/labka1/labka1.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1567672213.294000
+!s107 E:/study/Labs/Components/labka1/labka1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka1|E:/study/Labs/Components/labka1/labka1.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka1 -O0

@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\lab2\lab2async\general
+vasync_general
+Z1 !s100 ]<zhoC?^QPiLGP?>VKzPn1
+Z2 I`6VD0?jz3e`D>_z^MR33e2
+Z3 VA?OoeXGX>meAI<[<?BD]00
+Z4 dE:\study\Labs\Components\lab2\lab2async\general
+Z5 w1567976528
+Z6 8E:/study/Labs/Components/lab2/lab2async/general/async_general.v
+Z7 FE:/study/Labs/Components/lab2/lab2async/general/async_general.v
+L0 1
+Z8 OV;L;10.1b;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab2/lab2async/general/async_general.v|
+Z10 o-work work -O0
+Z11 !s108 1567978216.464000
+Z12 !s107 E:/study/Labs/Components/lab2/lab2async/general/async_general.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vasync_receiver
+Z13 I>gYSP0GoR5AVk0kJ><5i<3
+Z14 V^>SM4IoYbC0>;N;RnD<Fh1
+R4
+Z15 w1567975238
+Z16 8E:/study/Labs/Components/lab2/lab2async/general/async_receiver.v
+Z17 FE:/study/Labs/Components/lab2/lab2async/general/async_receiver.v
+L0 1
+R8
+r1
+31
+R10
+!i10b 1
+Z18 !s100 VSB]mZ42mzol>CXbXIe792
+!s85 0
+Z19 !s108 1567978216.636000
+Z20 !s107 E:/study/Labs/Components/lab2/lab2async/general/async_receiver.v|
+Z21 !s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab2/lab2async/general/async_receiver.v|
+!s101 -O0
+vasync_transmitter
+!i10b 1
+!s100 7jb2MPF5@EnHX]fXD<laT2
+I>KTbCdI`7a5:iGnWP0K[n3
+VT3mWzR4JhS7VI9e@iXV2T2
+R4
+w1567974346
+8E:/study/Labs/Components/lab2/lab2async/general/async_transmitter.v
+FE:/study/Labs/Components/lab2/lab2async/general/async_transmitter.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1567978216.776000
+!s107 E:/study/Labs/Components/lab2/lab2async/general/async_transmitter.v|
+!s90 -reportprogress|300|-work|work|E:/study/Labs/Components/lab2/lab2async/general/async_transmitter.v|
+!s101 -O0
+R10

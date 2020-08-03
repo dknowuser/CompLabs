@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\Components\labka13\simulation\modelsim
+vbench
+!i10b 1
+!s100 T4DR4I25`;0NHETEA>YBV0
+ISg1J?NHVCzmS[Zk[@RXae2
+VUH03Z:]637R2F816H=:l90
+Z1 dE:\study\Labs\Components\labka13\simulation\modelsim
+w1567719355
+8E:/study/Labs/Components/labka13/simulation/modelsim/bench.v
+FE:/study/Labs/Components/labka13/simulation/modelsim/bench.v
+L0 3
+Z2 OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1567719672.278000
+!s107 E:/study/Labs/Components/labka13/simulation/modelsim/bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka13/simulation/modelsim|E:/study/Labs/Components/labka13/simulation/modelsim/bench.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13/simulation/modelsim -O0
+vlabka13
+IQb8?j1_5`5O0`eTM<]W=R3
+V9[7h:9b?I]n>JJQ^f4G<]2
+R1
+w1567677860
+8E:/study/Labs/Components/labka13/labka13.v
+FE:/study/Labs/Components/labka13/labka13.v
+L0 1
+R2
+r1
+31
+R3
+Z4 !s92 -vlog01compat -work work +incdir+E:/study/Labs/Components/labka13 -O0
+!i10b 1
+!s100 DLifHjh:R4O?0cWR<`WF00
+!s85 0
+!s108 1567719672.013000
+!s107 E:/study/Labs/Components/labka13/labka13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka13|E:/study/Labs/Components/labka13/labka13.v|
+!s101 -O0
+vmy_decode
+I[EazE<PNTPAKP0mE_^c4g1
+VE5<ZPEcb>KiC_DT@nF]332
+R1
+w1567677104
+8E:/study/Labs/Components/labka13/my_decode.v
+FE:/study/Labs/Components/labka13/my_decode.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 6QYXin`:F`6aoOYA;^W2@0
+!s85 0
+!s108 1567719672.173000
+!s107 E:/study/Labs/Components/labka13/my_decode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/Components/labka13|E:/study/Labs/Components/labka13/my_decode.v|
+!s101 -O0

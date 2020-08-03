@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="labka1gen">
+		<CBX_INST_ENTRY INSTANCE_NAME="|labka1gen|labka12:l2|my_mux:multiplexer|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_mrc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labka1gen|labka13:l3|my_decode:decode|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_lbf.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

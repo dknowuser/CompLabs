@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="labka13">
+		<CBX_INST_ENTRY INSTANCE_NAME="|labka13|my_decode:decode|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_lbf.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

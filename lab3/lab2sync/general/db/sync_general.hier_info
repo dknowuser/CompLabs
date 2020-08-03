@@ -1,0 +1,93 @@
+|sync_general
+Clk => Clk.IN1
+Din[0] => Din[0].IN1
+Din[1] => Din[1].IN1
+Din[2] => Din[2].IN1
+Din[3] => Din[3].IN1
+Din[4] => Din[4].IN1
+Din[5] => Din[5].IN1
+Start => Start.IN1
+Dout[0] <= sync_receive:receiver.Dout
+Dout[1] <= sync_receive:receiver.Dout
+Dout[2] <= sync_receive:receiver.Dout
+Dout[3] <= sync_receive:receiver.Dout
+Dout[4] <= sync_receive:receiver.Dout
+Dout[5] <= sync_receive:receiver.Dout
+Ready <= sync_receive:receiver.Ready
+Error <= sync_receive:receiver.Error
+Clk_connect_trans <= sync_transmit:transmitter.Clk_out
+D_connect_trans <= sync_transmit:transmitter.D
+FS_connect_trans <= sync_transmit:transmitter.FS
+Clk_connect_recv => Clk_connect_recv.IN1
+D_connect_recv => D_connect_recv.IN1
+FS_connect_recv => FS_connect_recv.IN1
+
+
+|sync_general|sync_transmit:transmitter
+Clk_in => D_bit.CLK
+Clk_in => odd.CLK
+Clk_in => counter[0].CLK
+Clk_in => counter[1].CLK
+Clk_in => counter[2].CLK
+Clk_in => FS_reg.CLK
+Clk_in => Clk_out.DATAIN
+Din[0] => ShiftRight0.IN35
+Din[1] => ShiftRight0.IN34
+Din[2] => ShiftRight0.IN33
+Din[3] => ShiftRight0.IN32
+Din[4] => ShiftRight0.IN31
+Din[5] => ShiftRight0.IN30
+Start => FS_reg.DATAIN
+Start => odd.ENA
+Start => D_bit.ENA
+Start => counter[0].ENA
+Start => counter[1].ENA
+Start => counter[2].ENA
+Clk_out <= Clk_in.DB_MAX_OUTPUT_PORT_TYPE
+D <= D_bit.DB_MAX_OUTPUT_PORT_TYPE
+FS <= FS_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sync_general|sync_receive:receiver
+Clk => Error_internal.CLK
+Clk => Dout_internal[0].CLK
+Clk => Dout_internal[1].CLK
+Clk => Dout_internal[2].CLK
+Clk => Dout_internal[3].CLK
+Clk => Dout_internal[4].CLK
+Clk => Dout_internal[5].CLK
+Clk => Ready_internal.CLK
+Clk => odd.CLK
+Clk => counter[0].CLK
+Clk => counter[1].CLK
+Clk => counter[2].CLK
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => Dout_internal.OUTPUTSELECT
+D => odd.IN1
+D => Error_internal.IN1
+FS => Dout_internal[5].ENA
+FS => Dout_internal[4].ENA
+FS => Dout_internal[3].ENA
+FS => Dout_internal[2].ENA
+FS => Dout_internal[1].ENA
+FS => Dout_internal[0].ENA
+FS => Error_internal.ENA
+FS => Ready_internal.ENA
+FS => odd.ENA
+FS => counter[0].ENA
+FS => counter[1].ENA
+FS => counter[2].ENA
+Dout[0] <= Dout_internal[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout_internal[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout_internal[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout_internal[3].DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout_internal[4].DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+Ready <= Ready_internal.DB_MAX_OUTPUT_PORT_TYPE
+Error <= Error_internal.DB_MAX_OUTPUT_PORT_TYPE
+
+
